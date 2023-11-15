@@ -17,7 +17,6 @@ class Pendu :
         time.sleep(0.5)
         print("Nous avons trouvez un mot, bonne chance a vous !")
         time.sleep(0.5)
-        print(lettre)
         Pendu.jouer(lettre)
 
     def jouer(lettre):

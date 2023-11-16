@@ -4,10 +4,10 @@ import time
 liste_mots = ['python', 'girafe', 'banane', 'ordinateur', 'plage', 'voiture', 'éléphant', 'musique', 'forêt', 'soleil']
 
 class Pendu :
-    def __init__ (self, lettre):
-        lettre = list
+    def __init__ ():
+        pass
 
-    def création():
+    def creation():
         lettre = []
         i = randint(0, len(liste_mots))
         mot = liste_mots[i]
@@ -56,4 +56,4 @@ class Pendu :
                 print("Voici votre mot : ",lettre)
                 Gagner = True
 
-Pendu.création()
+Pendu.creation()
